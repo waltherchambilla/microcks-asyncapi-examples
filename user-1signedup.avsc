@@ -2,8 +2,8 @@
  "type": "record",
  "name": "User",
  "fields": [
-     {"name": "fullName", "type": "string", "default": "Juan Perez"},
-     {"name": "email",  "type": "string"},
+     {"name": "fullName", "type": ["null","string"], "default": "Juan Perez"},
+     {"name": "email",  "type": ["null","string"], "default": "juan@example.com"},
      {"name": "age", "type": ["null","int"], "default":null}
  ]
 }
